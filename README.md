@@ -1,7 +1,7 @@
 
 
 This is the monolithic version of this demo. 
-For the micro-services version, please see the microservices branch: https://github.com/Pivotal-Field-Engineering/PCF-demo/tree/micro-services
+For the micro-services version, please check the microservices branch.
 
 PCF Demo
 =========
