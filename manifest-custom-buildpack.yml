@@ -2,12 +2,12 @@
 applications:
 - name: pcfdemo-cq
   memory: 384M 
-  buildpack: https://github.com/caxqueiroz/java-buildpack.git
+# buildpack: cq-java-buildpack
   instances: 1
   host: pcfdemo-${random-word}
   path: ./target/pcfdemo.war
   env:
    JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
 services:
-#- insight-dev
+- insight-dev
 - rabbitmq-dev
